@@ -21,7 +21,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('',views.home,name="home_page"),
+    path('/representation/',views.home,name="home_page"),
     # path('profile',views.Profile,name="profile_page"),
     path('expretion',views.expretion,name="expect")
 ]
