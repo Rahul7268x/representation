@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request,'a.html', {'form':'django','link':'https://www.google.co.in/'})
+    return render(request,'index.html', {'form':'django','link':'https://www.google.co.in/'})
 
 
 # def Profile(request):
